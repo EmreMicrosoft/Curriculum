@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Instagram\" />
+    <Folder Include="Facebook\" />
+    <Folder Include="LinkedIn\" />
+    <Folder Include="Twitter\" />
+    <Folder Include="Pinterest\" />
+    <Folder Include="Youtube\" />
+  </ItemGroup>
+
+</Project>
