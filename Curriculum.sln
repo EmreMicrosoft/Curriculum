@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Curriculum.Courses.SocialMedia", "Curriculum.Courses.SocialMedia\Curriculum.Courses.SocialMedia.csproj", "{63EC6559-4D7A-40A1-9863-972ECF8AB2B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Curriculum.Courses.SocialMediaManagement", "Curriculum.Courses.SocialMediaManagement\Curriculum.Courses.SocialMediaManagement.csproj", "{63EC6559-4D7A-40A1-9863-972ECF8AB2B8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Curriculum.Courses.CSharp", "Curriculum.Courses.CSharp\Curriculum.Courses.CSharp.csproj", "{C96A3179-4749-4457-B8F8-C210170DFA8C}"
 EndProject
