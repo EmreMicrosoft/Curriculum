@@ -10,6 +10,9 @@ namespace Curriculum.UI.ConsoleCore
             //-----------------------------------------//
 
 
+            // ************************************ //
+            // *  C# FOR LOOP AND STRING METHODS  * //
+            // ************************************ //
 
             string isim = "mustafa kemâl";
             string[] isimler = { "can", "evrim", "muh4mmed", "emre", "hüseyin"};
@@ -18,19 +21,7 @@ namespace Curriculum.UI.ConsoleCore
             for (int i = 0; i < isimler.Length; i++)
             {
                 Console.WriteLine(isimler[i]);
-            }
-
-            for (int i = 0; i < isim.Length; i++)
-            {
-                Console.WriteLine(isim[i]);
-            }
-
-            for (int i = 0; i < isim.Length; i++)
-            {
-                Console.Write(isim[i]);
-            }
-
-
+            } 
 
             Console.ReadKey();
         }
