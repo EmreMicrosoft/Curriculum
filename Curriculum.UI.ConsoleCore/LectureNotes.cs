@@ -2,9 +2,9 @@
 
 namespace Curriculum.UI.ConsoleCore
 {
-    public static class Program
+    public class LectureNotes
     {
-        public static void Main()
+        public void Notes()
         {
             Console.ForegroundColor = ConsoleColor.Green;
             //-----------------------------------------//
@@ -12,8 +12,8 @@ namespace Curriculum.UI.ConsoleCore
 
 
             string isim = "mustafa kemâl";
-            string[] isimler = { "can", "evrim", "muh4mmed", "emre", "hüseyin"};
-
+            string[] isimler = { "can", "evrim", "muh4mmed", "emre", "hüseyin" };
+            int toplam = 0;
 
             for (int i = 0; i < isimler.Length; i++)
             {
@@ -30,9 +30,12 @@ namespace Curriculum.UI.ConsoleCore
                 Console.Write(isim[i]);
             }
 
+            for (int i = 1; i <= 100; i++)
+            {
+                toplam = toplam + i;
+            }
 
-
-            Console.ReadKey();
+            Console.WriteLine(toplam);
         }
     }
 }
