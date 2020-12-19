@@ -15,7 +15,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Curriculum.Courses.SocialMe
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Curriculum.Courses.TransactSQL", "Curriculum.Courses.TransactSQL\Curriculum.Courses.TransactSQL.sqlproj", "{CD6A3282-8859-4596-91B1-C669D3033A55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Curriculum.UI.ConsoleCore", "Curriculum.UI.ConsoleCore\Curriculum.UI.ConsoleCore.csproj", "{74D04CD9-D620-4169-A997-8233745DD9B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Curriculum.UI.ConsoleCore", "Curriculum.UI.ConsoleCore\Curriculum.UI.ConsoleCore.csproj", "{74D04CD9-D620-4169-A997-8233745DD9B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E53FDA0-0047-42E3-9B45-C093B5365993}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

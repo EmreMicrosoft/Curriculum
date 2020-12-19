@@ -6,8 +6,9 @@ namespace Curriculum.UI.ConsoleCore
     {
         public static void Main()
         {
+            // DATA TYPES (veri tipleri)
 
-            
+
         }
     }
 }
