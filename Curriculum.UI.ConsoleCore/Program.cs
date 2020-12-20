@@ -6,28 +6,38 @@ namespace Curriculum.UI.ConsoleCore
     {
         public static void Main()
         {
-            // OPERATÖRLER
+            var rastgele = new Random();
+            var sayi = rastgele.Next(50, 100);
 
-            int a, b, c, d, e;
-            a = 7;       // a = 7
-            b = a;       // b = 7
-            c = b + 1;   // c = 8
-            d = a++;     // d = 7, a = 8
-            e = ++a;     // a = 9, e = 9
+            Console.WriteLine("Tek mi çift mi?");
+            Console.WriteLine("Tek için '1', çift için '2' yazın.");
+            var tercih = Console.ReadLine();
 
-            Console.WriteLine("a : " + a);
-            Console.WriteLine("b : " + b);
-            Console.WriteLine("c : " + c);
+            // SWITCH-CASE STATEMENT
+            switch (sayi % 2)
+            {
+                case 0 when tercih == "2":
+                    Console.WriteLine("evet, sayı çift: " + sayi);
+                    break;
+                case 0 when tercih == "1":
+                    Console.WriteLine("hayır, sayı çift: " + sayi);
+                    break;
+                case 1 when tercih == "2":
+                    Console.WriteLine("hayır, sayı tek: " + sayi);
+                    break;
+                case 1 when tercih == "1":
+                    Console.WriteLine("evet, sayı tek: " + sayi);
+                    break;
+                default:
+                    Console.WriteLine("Bişeyler ters gitti.");
+                    break;
+            }
 
-            Console.WriteLine("d : " + d);
-            Console.WriteLine("e : " + e);
 
-            // b = a + (b * c);
-            b = a + b * c;
-            Console.WriteLine("yeni b : " + b);
 
-            b = (a + b) * c;
-            Console.WriteLine("son b : " + b);
+
+            // ends:
+            Console.ReadKey();
         }
     }
 }

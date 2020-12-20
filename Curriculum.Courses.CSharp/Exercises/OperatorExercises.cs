@@ -24,5 +24,26 @@
 
         //b = (a + b) * c;
         //Console.WriteLine("son b : " + b);
+
+        // --------------------------------------
+
+
+        //int a = 47;
+        //double b = 13;
+
+        //double c = a / b;
+        //Console.WriteLine("c : " + c);
+
+        //int d = 13;
+        //var e = a / d;
+
+        //Console.WriteLine("e : " + e);
+
+        //var f = a / Convert.ToDouble(d);
+        //Console.WriteLine("f : " + f);
+
+
+        //// ends:
+        //Console.ReadKey();
     }
 }
