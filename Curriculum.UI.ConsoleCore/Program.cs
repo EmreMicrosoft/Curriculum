@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace Curriculum.UI.ConsoleCore
 {
@@ -6,37 +7,28 @@ namespace Curriculum.UI.ConsoleCore
     {
         public static void Main()
         {
-            var rastgele = new Random();
-            var sayi = rastgele.Next(50, 100);
+            Stopwatch kronometre = new Stopwatch();
+            kronometre.Start();
 
-            Console.WriteLine("Tek mi çift mi?");
-            Console.WriteLine("Tek için '1', çift için '2' yazın.");
-            var tercih = Console.ReadLine();
-
-            // SWITCH-CASE STATEMENT
-            switch (sayi % 2)
+            for (int i = 0; i < 100; i++)
             {
-                case 0 when tercih == "2":
-                    Console.WriteLine("evet, sayı çift: " + sayi);
-                    break;
-                case 0 when tercih == "1":
-                    Console.WriteLine("hayır, sayı çift: " + sayi);
-                    break;
-                case 1 when tercih == "2":
-                    Console.WriteLine("hayır, sayı tek: " + sayi);
-                    break;
-                case 1 when tercih == "1":
-                    Console.WriteLine("evet, sayı tek: " + sayi);
-                    break;
-                default:
-                    Console.WriteLine("Bişeyler ters gitti.");
-                    break;
+                Console.WriteLine(i);
             }
 
+            kronometre.Stop();
+            TimeSpan zaman = kronometre.Elapsed;
+
+            string gecenZaman = $"{zaman.Hours:00}" +
+                                 $":{zaman.Minutes:00}" +
+                                 $":{zaman.Seconds:00}" +
+                                 $".{zaman.Milliseconds / 10:00}";
 
 
+            Console.WriteLine("--------------------------");
+            Console.Write("Süre : ");
+            Console.WriteLine(gecenZaman);
 
-            // ends:
+            // SON
             Console.ReadKey();
         }
     }

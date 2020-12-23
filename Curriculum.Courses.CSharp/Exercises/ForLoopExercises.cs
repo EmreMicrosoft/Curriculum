@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Curriculum.Courses.CSharp.Exercises
 {
@@ -31,6 +32,35 @@ namespace Curriculum.Courses.CSharp.Exercises
             }
 
             return primeNumbers;
+        }
+
+        public void UserPassWithArrays()
+        {
+            string[] usernames = { "ahmet", "mehmet", "hasan", "huseyin" };
+            string[] passwords = { "Ah1234", "Me1234", "Ha1234", "Hu1234" };
+
+            Console.WriteLine("Kullanıcı Adı?");
+            var username = Console.ReadLine();
+
+            Console.WriteLine("Şifre?");
+            var password = Console.ReadLine();
+
+            var kontrol = false;
+
+            for (var i = 0; i < usernames.Length; i++)
+            {
+                if (username?.ToLower() == usernames[i] && password == passwords[i])
+                {
+                    Console.WriteLine("Hoşgeldin " + usernames[i] + "!");
+                    kontrol = true;
+                    break;
+                }
+            }
+
+            if (kontrol == false)
+            {
+                Console.WriteLine("Kullanıcı adı ya da şifre hatalı..!");
+            }
         }
     }
 }
