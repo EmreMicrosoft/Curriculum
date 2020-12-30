@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JS - Part 10: Loops</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+        // ----- FOR LOOP ..
+        for (var i = 0; i <= 10; i++) {
+            console.log(i);
+        }
+
+        var şehirler = ["Ankara", "İstanbul", "İzmir", "Antalya"];
+
+        for (var j = 0; j < şehirler.length; j++) {
+            console.log(şehirler[j]);
+        }
+
+        // ----- FOREACH LOOP ..
+
+        şehirler.forEach(function(şehir) {
+            window.console.log(`Şehir : ${şehir}`);
+        });
+
+        // ----- WHILE LOOP ..
+        var k = 1;
+        while (k <= 5) {
+            console.log(k);
+            k++;
+        }
+
+        // ----- DO-WHILE LOOP ..
+        // şart sağlanmasa bile önce bir kez çalışır, 
+        // şarta uyulup uyulmadığını sonra kontrol eder.
+        var m = 1;
+        do {
+            console.log(m);
+        } while (m > 4);
+
+        var n = 1;
+        do {
+            console.log(n);
+            n++;
+        } while (n <= 4);
+
+    </script>
+</body>
+</html>

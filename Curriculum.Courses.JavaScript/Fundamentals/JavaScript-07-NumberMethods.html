@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JS - Part 7: Number Methods</title>
+</head>
+<body>
+    <script>
+
+        var x = 9.656;
+
+        var str = x.toString();
+        //    alert(str);
+
+        var exp = x.toExponential(6);
+        //    alert(exp);
+
+        // Virgülden sonrasını kesmek için kullanılır !!!
+        var fixed = x.toFixed(2);
+        //    alert(fixed);
+
+        // kaçıncı basamaktan sonra yuvarlama yapılacağını belirler:
+        var prec = x.toPrecision(6);
+        //    alert(typeof prec);
+
+        // string dönen value'yu number tipine çevirip döndürmek için:
+        var valueOf = x.valueOf();
+        alert(typeof valueOf);
+
+    </script>
+</body>
+</html>

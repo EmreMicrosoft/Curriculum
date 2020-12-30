@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <!-- https://jquery.com/ -->
+    <title>jQuery Fundamentals</title>
+
+    <!-- KÜTÜPHANEYİ ÇAĞIRIRIZ -->
+    <script src="../lib/jquery-3.3.1.min.js"></script>
+
+    <!-- JQUERY'NİN ÇALIŞIP ÇALIŞMADIĞINI TEST EDERİZ -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            alert("jQuery is ON");
+        })
+    </script>
+
+    <!-- SEÇME İŞLEMLERİ -->
+    <script type="text/javascript">
+        // $(seçici).metodAdı();   --->   seçici ile seçilen bir
+        // elemente metodAdı ile belirtilen metodu uygula.
+
+        $("#container");            // Id'si container olan elementi seç.
+        $("#container .author");    // Id'si container olan elementin içindeki
+        // class'ı author olan elementi seç.
+
+        $(".box");      // class'ı box olan elementi seç.
+        $("div.box");   // div'lerden class'ı box olanı seç.
+        $("div");       // bütün divleri seç.
+        $("body");      // body'yi seç.
+        $("a");         // a elementini seç.
+
+        $("button");                // button'u seç.
+        $("button[name='save']");   // name'i save olan button'u seç.
+
+
+                    // jQuery, css ile aynı seçicileri kullanabilme yetisine sahiptir.
+    </script>
+
+
+</head>
+<body>
+<div class="seciciler">
+    <div id="container">
+        <span clsss="author">Dolor sit amet</span>
+    </div>
+    <div class="box">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </div>
+    <br />
+    <a href="#">Siteye Git</a>
+    <button name="save">Kaydet</button>
+</div>
+
+</body>
+</html>

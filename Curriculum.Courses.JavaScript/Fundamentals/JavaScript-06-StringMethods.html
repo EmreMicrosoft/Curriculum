@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JS - Part 6: String Methods</title>
+</head>
+<body>
+    <script>
+
+        var metin = "Ben bugun react-native programlamaya başladım. react-native çok güzel bir framework";
+
+        document.write(metin);
+
+        // Karakter uzunluğu
+        var len = metin.length;
+        //    alert(len);
+
+        var position = metin.indexOf("react");
+        //    alert(position);
+
+        var position = metin.lastIndexOf("react");
+        //    alert(position);
+
+        // .search, regular expression içinde kullanılabilir.
+        var position = metin.search("çok");
+        //    alert(position);
+
+
+        // Metin Parçalama..
+
+        //    var text = metin.slice(20,30);
+
+        // sondan geriye doğru sayıp keser.
+        var text = metin.slice(-12);
+        //    alert(text);
+
+        // yirminci karakterden başla, 30. karaktere kadar al.
+        var text = metin.substring(20, 30);
+        //    alert(text);
+
+        // .slice'dan farkı: birinci değer kesmenin hangi karakterden
+        // başlayacağını; ikinci karakter ise kaç karakter alıp keseceğini belirtir.
+        var text = metin.substr(20, 30);
+        //    alert(text);
+
+
+        // Metin Değiştirme
+        var newText = metin.replace(/react-native/g, "reactNative");
+        //    alert(newText);
+
+        // Karakter İşlemleri
+        var upper = metin.toUpperCase();
+        //    alert(upper);
+
+        var lower = metin.toLowerCase();
+        //    alert(lower);
+
+        var firstName = "FirstName";
+        var lastName = "LastName";
+        var full_name = firstName.concat(" ", lastName);
+
+        //    alert(full_name);
+
+        // Char
+        var char = metin.charAt(5);
+        alert(char);
+
+        // Split..
+
+        var split_text = "Ahmet;Mehmet;Hasan;Hüseyin";
+
+        var list = split_text.split(";");
+
+        console.log(list);
+
+    </script>
+</body>
+</html>

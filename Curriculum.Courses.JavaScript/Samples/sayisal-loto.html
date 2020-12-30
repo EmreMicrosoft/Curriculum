@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Sayısal Loto</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // UZUN UZUN YAZILAN KOD:
+        var sayi1 = Math.ceil(Math.random() * 49);
+        var sayi2 = Math.ceil(Math.random() * 49);
+        var sayi3 = Math.ceil(Math.random() * 49);
+        var sayi4 = Math.ceil(Math.random() * 49);
+        var sayi5 = Math.ceil(Math.random() * 49);
+        var sayi6 = Math.ceil(Math.random() * 49);
+
+        window.console.log('Kolon-1 : ' + sayi1 + ' ' + sayi2 + ' ' + sayi3 + ' ' + sayi4 + ' ' + sayi5 + ' ' + sayi6);
+
+        // ----------------------------------------- //
+
+        // FONKSİYON İLE YAZILMIŞ HALİ:
+
+        function sayiUret(ustLimit = 49) {
+            return Math.ceil(Math.random() * ustLimit);
+        }
+
+        var sayi1 = sayiUret();
+        var sayi2 = sayiUret();
+        var sayi3 = sayiUret();
+        var sayi4 = sayiUret(49);
+        var sayi5 = sayiUret(49);
+        var sayi6 = sayiUret(49);
+
+        window.console.log(`Kolon-2 : ${sayi1} ${sayi2} ${sayi3} ${sayi4} ${sayi5} ${sayi6}`);
+
+        // ----- 8 Kolonlu Kupon ----- -  -   -
+
+        for (var i = 1; i <= 8; i++) {
+            console.log(i + ". KOLON");
+            for (var j = 1; j <= 6; j++) {
+                console.log(sayiUret());
+                // mantık hatası: bir kolonda birden fazla 
+                // kez aynı sayıyı random edebilir, düzelt.
+            }
+        }
+
+    </script>
+</body>
+</html>

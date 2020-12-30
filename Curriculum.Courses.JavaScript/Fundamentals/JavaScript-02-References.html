@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JS - Part 2: Reference Types</title>
+</head>
+<body>
+
+    <script>
+
+        //variable = değişken
+        //var değişkenAdı = değer;
+        var x = 10;
+        var y = 5;
+        var name = "Director Name";
+        var sum = x + y;
+        var isActive = false;
+
+        //alert(x);
+        //alert(y);
+        //alert(name);
+        //alert(sum);
+
+
+
+        // Veri Türleri
+
+        /* Number (integer, double)
+         * String
+         * Object
+         */
+
+        /* string => Some Text, Details, 123456qwerty
+         * int => -10, 0, 10, 20, 30, ...
+         * double => 10.1, 45.8, 21.7, ...
+         * boolean => 1 | 0, true | false
+         */
+
+        var personel = {
+            name: "John",
+            surname: "Brown",
+            age: "30"
+        }
+
+        //alert("Name : " + personel.name);
+        //alert("Surname : " + personel["surname"]);
+        //alert("Age : " + personel.age);
+
+        var full_name = "John " + "Brown";
+        console.log(full_name);
+
+        //alert(typeof (x));
+        //alert(typeof (isActive));
+
+        // !!!
+        var testValue = true;
+        //alert(typeof (testValue));
+
+        testValue = 100;
+        //alert(typeof (testValue));
+
+        testValue = 01;
+        //alert(typeof (testValue));
+
+        testValue = "switched to string";
+        //alert(typeof (testValue));
+    </script>
+
+    <script>
+        // *****  OPERATÖRLER  *****
+
+        // Atama Operatörleri
+        var total = 50;
+        total = 100;
+        var someValue = 35;
+        total = someValue;
+
+
+        // Aritmetik Operatörler
+        // +, -, *, /, %
+
+        var toplama = 5 + 3;
+        var cikarma = 8 - 2;
+        var carpma = 20 * 4;
+        var bolme = 10 / 5;
+        var mod = 20 % 6; // mod = 2;
+
+        var islem = toplama + mod;
+        //alert("islem : " + islem);
+
+
+
+        // Arttırma ve Azaltma Operatörleri
+        var sayi = 0;
+        sayi = sayi + 1;
+        sayi++;
+        sayi += 10;
+
+        //Azaltma Operatörleri
+        sayi--;
+        sayi -= 5;
+        sayi = sayi - 2;
+        //alert(sayi);
+
+        // Çarpma ve Bölme
+        sayi *= 5;
+        sayi = sayi * 3;
+        //alert(sayi);
+
+        sayi /= 6;
+        sayi = sayi / 5;
+        //alert(sayi);
+
+        var a = "2";
+        var b = "3";
+
+        var toplam1 = a + b;
+        console.log("toplam-string : " + toplam1);
+
+        var toplam2 = Number(2) + Number(3);
+        console.log(`toplam-number : ${toplam2}`);
+    </script>
+</body>
+</html>

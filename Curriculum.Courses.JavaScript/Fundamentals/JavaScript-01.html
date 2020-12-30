@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Javascript Fundamentals - Part 1</title>
+
+
+</head>
+<body>
+
+    <!-- bir html sayfasında 1'den fazla id'ye sahip bir element olamaz -->
+    <!-- bir html sayfasında bir class çok sayıda elemente tanımlanabilir -->
+    <div id="container"></div>
+    <div id="xId"></div>
+    <p class="result"></p>
+    <p class="result"></p>
+    <input type="text" name="fname" />
+    <a href="#"></a>
+
+    <script type="text/javascript">
+        // Output Komutları
+
+        // innerHTML
+        // document.write()
+        // window.alert()
+        // console.log()
+
+        // innerHTML, elementler üzerinde gösterir.
+        // container id'sine sahip elementi seç ve içine şunu yaz:
+        document.getElementById("container").innerHTML = "innerHTML değeri, seçili elementin içine gönderildi.";
+
+        // bir elemente değil de, doğrudan dökümana yazar:
+        document.write("document.write() örneği oluşturuldu.");
+
+        //bu pencerede alert çıkarır:
+        window.alert("Window Alert Text");
+        alert("Alert Text");
+
+        // konsola veri gönderir.
+        console.log("değeri konsola gönderir.");
+    </script>
+
+    <script type="text/javascript">
+        // Element Seçmek
+
+        // id'si xId olan
+        document.getElementById("xId").innerHTML = "xId elementinin içine gönderildi";
+
+        // birden fazla element geleceği için..
+        document.getElementsByClassName("result")[0].innerHTML = "dizide bulunan, ilgili ilk elemente gönderildi.";
+
+        // bu alan bir input olduğu için innerHTML yerine .value yazdık.
+        // name'i fname olan elementlerden index numarası sıfır olanı seç, değerine 2 + 5 ekle:
+        document.getElementsByName("fname")[0].value = 2 + 5;
+
+        // tag adına göre bir liste getrir, ...
+        document.getElementsByTagName("a")[0].innerHTML = "Link Text";
+
+    </script>
+
+</body>
+</html>

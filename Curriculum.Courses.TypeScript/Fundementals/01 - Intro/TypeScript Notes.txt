@@ -1,0 +1,33 @@
+﻿Microsoft Windows [Version 10.0.17134.523]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+// *****   INSTALL TYPESCRIPT   ***** //
+C:\Users\MobileStation> npm install -g typescript
+
+
+// *****   INSTALL NODEMON   ***** //
+C:\Users\MobileStation> npm install -g nodemon
+
+
+// --------------------------------------------------- // 
+
+// intro.ts'yi intro.js'ye dönüştürüyoruz: 
+C:\...\Developer.FrontEnd.TypeScript\01 - Intro> tsc intro.ts
+
+// aynı klasörde intro.js'yi gördük.
+// şimdi intro.js'yi dinlemeye alıyoruz:
+
+C:\...\Developer.FrontEnd.TypeScript\01 - Intro> nodemon intro.js
+
+[nodemon] 1.18.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node intro.js`
+[nodemon] clean exit - waiting for changes before restart
+
+
+
+
+
+
+

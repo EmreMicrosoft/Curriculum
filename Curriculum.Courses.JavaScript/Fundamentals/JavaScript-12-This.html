@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JS - Part 12: This Keyword</title>
+</head>
+<body>
+<script type="text/javascript">
+    // this, içinde bulunduğumuz nesnedir.
+    const urunServis = {
+        ekle: function () {
+            window.console.log(this);
+            window.alert(typeof(this));
+        }
+    };
+
+    urunServis.ekle();
+</script>
+</body>
+</html>

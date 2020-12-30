@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JS Part 4 - Objects</title>
+</head>
+<body>
+    <script>
+
+        // Properties & Methods
+        var araba = {
+            name: "BMW",
+            model: "1.16",
+            weight: 1400,
+            color: "white",
+            year: 2016,
+
+            // bir işlem bütünü olan fonksiyon tanımı:
+            start: function () {
+                alert("Araba Çalıştı!!!");
+            },
+            drive: function () {
+                alert("Araba Hareket Ediyor...");
+            },
+            break: function () {
+                alert("Araba Fren Yaptı!!!");
+            },
+            stop: function () {
+                alert("Araba Durdu!");
+            },
+            getInfo: function () {
+                // araba nesnesinin name'ini getir:
+                console.log("Ad :" + araba.name);
+
+                // hangi nesnenin içindeysen, onun name'ini getir:
+                console.log("Ad : " + this.name);
+
+                console.log("Model : " + this.model);
+                console.log("Ağırlık : " + this.weight);
+                console.log(`Renk : ${this.color}`);
+            },
+            getAge: function () {
+                return 2019 - this.year;
+            }
+        };
+
+        var personel = {
+            name: "Sebastiyan"
+        }
+
+        console.log(araba);
+
+        // Özelliklere ulaşmak
+
+        console.log(araba.name);
+        console.log(araba.color);
+        console.log(araba["weight"]);
+
+
+        // Özellikleri Değiştirmek.
+
+        araba.color = "black";
+        console.log(araba);
+
+        araba.getInfo();
+
+        araba.start();
+        araba.drive();
+        araba.break();
+        araba.stop();
+
+        alert("Aracın Yaşı : " + araba.getAge());
+
+        // ------------------ //
+        var kişi = {
+            ad: "Mira",
+            soyad: "Sevim",
+            yaş: "1",
+            email: "mira@gmail.com",
+            oyuncaklar: ["Olaf", "Anna", "Nemo", "Dori"],
+            testFonksiyonu: function() {
+                window.console.log("fonksiyon çalıştı");
+            }
+        }
+
+        // kişi.testFonksiyonu();
+        // kişi.oyuncaklar;
+
+
+    </script>
+
+</body>
+</html>

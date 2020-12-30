@@ -1,9 +1,0 @@
-{
-  "name": "curriculum.courses.javascript",
-  "version": "0.0.0",
-  "description": "Curriculum.Courses.Javascript",
-  "main": "server.js",
-  "author": {
-    "name": ""
-  }
-}

@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JS - Part 11: Conditionals</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+        var not = 45;
+        if (not >= 60) {
+            console.log('Geçti');
+        } else if (not >= 45) {
+            console.log('Büt\'e kaldı');
+        }
+        else {
+            console.log('Kaldı');
+        }
+
+        // -------------------------------------- //
+
+        // En büyük sayıyı bulunuz:
+
+        var n1 = 25;
+        var n2 = 11;
+        var n3 = 39;
+        var n4 = 17;
+
+        var enBuyukSayi = n1;
+
+        if (enBuyukSayi < n2) {
+            enBuyukSayi = n2;
+        }
+
+        if (enBuyukSayi < n3) {
+            enBuyukSayi = n3;
+        }
+
+        if (enBuyukSayi < n4) {
+            enBuyukSayi = n4;
+        }
+        // window.console.log('En büyük sayı : ' + enBuyukSayi);
+        console.log(`En büyük sayı : ${enBuyukSayi}`);
+        // -------------------------------------- //
+
+        var x1 = 10;
+        var x2 = 20;
+
+        if (x1 == x2) {
+            console.log("Eşit");
+        }
+
+        var x3 = 30;
+        var x4 = 40;
+        var x5 = 30;
+
+        if (x3 === x4 || x4 === x5) {
+            console.log("3 sayıdan 2'si eşit");
+        }
+
+        var n5 = 1;
+
+        // while döngüsü..
+        while (n5 <= 10) {
+            console.log(n5);
+            n5 = n5 + 1;
+        }
+
+        // for döngüsü..
+        for (var i = 0; i <= 100; i++) {
+            console.log(i);
+        }
+
+    </script>
+</body>
+</html>

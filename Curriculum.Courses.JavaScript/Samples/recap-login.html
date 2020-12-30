@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Recap Login</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var users = [
+            { email: "first@gmail.com", password: "12345" },
+            { email: "second@gmail.com", password: "abcde" }
+        ];
+
+        var tweets = [
+            { email: "first@gmail.com", tweet: "Test tweet 1" },
+            { email: "first@gmail.com", tweet: "Test tweet 2" },
+            { email: "second@gmail.com", tweet: "Test tweet 3" }
+        ];
+
+        var email = prompt("e-mail?");
+        var password = prompt("password?");
+
+        function isUserExist(email, password) {
+            for (let i = 0; i < users.length; i++) {
+                if (users[i].email === email &&
+                    users[i].password === password) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        function login() {
+            if (isUserExist(email, password)) {
+                window.console.log(tweets);
+            } else {
+                window.alert("login failed");
+            }
+        }
+
+        login(email, password);
+
+    </script>
+</body>
+</html>

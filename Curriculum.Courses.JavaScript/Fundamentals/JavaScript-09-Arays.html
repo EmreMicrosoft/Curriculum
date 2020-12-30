@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JS - Part 9: Arrays </title>
+</head>
+<body>
+    <script>
+
+        // array'ler sıfırıncı indisten başlar.
+        var car_list = ["Mercedes-Benz", "BMW", "Renault"];
+        console.log(car_list);
+
+        var araba_listesi = new Array("Doğan", "Şahin", "Serçe");
+        console.log(araba_listesi);
+    </script>
+
+    <script>
+        var students = ["Ahmet", "Mehmet", "Hasan", "Hüseyin"];
+        console.log(students);
+
+        // lenght özelliği
+        console.log(students.length);
+
+        // toString()
+        console.log(students.toString());
+
+        // join()
+        // dizi elemanlarını, belirlemiş olduğumuz karakter ile ayırmayı sağlar.
+        console.log(students.join("|"));
+        console.log(students.join("-"));
+
+        // pop()
+        // bir array'den en son'daki elemanı çıkartmaya ve o elemanı bize vermeye yarar.
+        var popItem = students.pop();
+        console.log(popItem);
+
+        // popItem çıktıktan sonra, geriye kalan elemanları listeler:
+        console.log(students);
+
+        // push()
+        // array'in sonuna item ekler.
+        students.push("Mustafa");
+        console.log(students);
+
+        // shift()
+        // ilk baştaki elemanı çıkartır
+        var shiftItem = students.shift();
+        console.log(shiftItem);
+        console.log(students);
+
+        // unshift()
+        // başa ekler:
+        students.unshift("yarraville");
+        console.log(students);
+
+        // splice()
+        // not: index başta sonda 0'ı dene.
+        // fialnca (aşağıdaki kodda ikinci) elemanın başına git,
+        // şu kadar(kodda bir tane) elemanı değiştir, onun yerine şunu ekle:
+        students.splice(2, 1, "vidi vidi");
+
+        fruits = new Array("apple", "melon", "acur");
+        students.concat(fruits);
+
+        // diziyi alfabetik sıralar:
+        fruits.sort();
+
+        var fonksiyonDizisi = [function f1() {
+
+        }, function f2() {
+
+        }, function f3() {
+
+        }];
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JS - Part 3: Functions</title>
+</head>
+<body>
+    <script type="text/javascript">
+        
+        prompt("Sayı?");
+        
+        // 1..
+        function name() {
+            window.alert("function is working");
+        }
+
+        // fonksiyonu çağır:
+        name();
+
+
+        // 2..
+        var sampleValue = 10;
+        function calculate(inputValue) {
+            window.console.log("Total value is " + (inputValue + 20));
+
+            // template string syntax sample:
+            window.console.log(`Total value is ${inputValue - 5}`);
+        }
+        outputValue = sampleValue;
+        calculate(outputValue);
+        // dönen değer => 10 + 20 = 30
+
+        // 3..
+        function returnCalculation(inputValue) {
+            return inputValue + 25;
+        }
+        console.log(returnCalculation(outputValue));
+
+        // 4..
+        function toCelcius(fahrenheit) {
+            return (9 / 5) * (fahrenheit - 32);
+        }
+        document.write(toCelcius(124));
+
+    </script>
+
+
+
+</body>
+</html>
