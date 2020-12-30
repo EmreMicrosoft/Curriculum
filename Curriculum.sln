@@ -22,11 +22,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Curriculum.Courses.TypeScript", "Curriculum.Courses.TypeScript\Curriculum.Courses.TypeScript.csproj", "{44E2B2BD-D60F-451E-B827-69C8E954423E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Curriculum.Courses.TypeScript", "Curriculum.Courses.TypeScript\Curriculum.Courses.TypeScript.csproj", "{44E2B2BD-D60F-451E-B827-69C8E954423E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Curriculum.Courses.JavaScript", "Curriculum.Courses.JavaScript\Curriculum.Courses.JavaScript.csproj", "{9D5E9339-9D57-4B95-950D-3DA9EFC3ED11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Curriculum.Courses.JavaScript", "Curriculum.Courses.JavaScript\Curriculum.Courses.JavaScript.csproj", "{9D5E9339-9D57-4B95-950D-3DA9EFC3ED11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Curriculum.Courses.Angular", "Curriculum.Courses.Angular\Curriculum.Courses.Angular.csproj", "{59980927-A19A-4F2F-A023-B69A54382230}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Curriculum.Courses.Angular", "Curriculum.Courses.Angular\Curriculum.Courses.Angular.csproj", "{59980927-A19A-4F2F-A023-B69A54382230}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SelfNotes", "SelfNotes", "{39639AF0-8193-424D-B775-D0173E32EEEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OldNotes", "OldNotes", "{8621D109-195F-4124-B2C3-0295ED2A580C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\HTML-notes.txt = ..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\HTML-notes.txt
+		..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\ImageUploads_v140.cs = ..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\ImageUploads_v140.cs
+		..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\Keyboard Symbols.txt = ..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\Keyboard Symbols.txt
+		..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\math.txt = ..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\math.txt
+		..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\mvc notlar (kopya).txt = ..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\mvc notlar (kopya).txt
+		..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\UploadImages.cs = ..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\UploadImages.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +89,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39639AF0-8193-424D-B775-D0173E32EEEB} = {4E53FDA0-0047-42E3-9B45-C093B5365993}
+		{8621D109-195F-4124-B2C3-0295ED2A580C} = {39639AF0-8193-424D-B775-D0173E32EEEB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A3C673C3-1A99-46F4-B373-A295E5B92AF7}
