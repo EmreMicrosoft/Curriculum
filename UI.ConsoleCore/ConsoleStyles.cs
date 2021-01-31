@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Curriculum.UI.ConsoleCore
+namespace UI.ConsoleCore
 {
     /// <summary>
     /// Bu klass konsol ekranı tasarımı için kullanılır.

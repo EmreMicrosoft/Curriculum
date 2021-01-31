@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.Design;
 
-namespace Curriculum.UI.ConsoleCore
+namespace UI.ConsoleCore
 {
     public static class KonsolUygulamaları
     {

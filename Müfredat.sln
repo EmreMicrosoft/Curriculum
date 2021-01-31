@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kurslar.AngularJS", "Kurslar.Angular\Kurslar.AngularJS.csproj", "{59980927-A19A-4F2F-A023-B69A54382230}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kurslar.CSharp", "Kurslar.CSharp\Kurslar.CSharp.csproj", "{C96A3179-4749-4457-B8F8-C210170DFA8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kurslar.JavaScript", "Kurslar.JavaScript\Kurslar.JavaScript.csproj", "{9D5E9339-9D57-4B95-950D-3DA9EFC3ED11}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Kurslar.Python", "Kurslar.Python\Kurslar.Python.pyproj", "{564AB308-4217-4FD3-84FD-272007BC1DDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kurslar.TypeScript", "Kurslar.TypeScript\Kurslar.TypeScript.csproj", "{44E2B2BD-D60F-451E-B827-69C8E954423E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UI.ConsoleCore", "UI.ConsoleCore\UI.ConsoleCore.csproj", "{74D04CD9-D620-4169-A997-8233745DD9B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E53FDA0-0047-42E3-9B45-C093B5365993}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{8621D109-195F-4124-B2C3-0295ED2A580C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\HTML-notes.txt = ..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\HTML-notes.txt
+		..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\ImageUploads_v140.cs = ..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\ImageUploads_v140.cs
+		..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\Keyboard Symbols.txt = ..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\Keyboard Symbols.txt
+		..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\math.txt = ..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\math.txt
+		..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\mvc notlar (kopya).txt = ..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\mvc notlar (kopya).txt
+		..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\UploadImages.cs = ..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\UploadImages.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59980927-A19A-4F2F-A023-B69A54382230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59980927-A19A-4F2F-A023-B69A54382230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59980927-A19A-4F2F-A023-B69A54382230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59980927-A19A-4F2F-A023-B69A54382230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C96A3179-4749-4457-B8F8-C210170DFA8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C96A3179-4749-4457-B8F8-C210170DFA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C96A3179-4749-4457-B8F8-C210170DFA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C96A3179-4749-4457-B8F8-C210170DFA8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D5E9339-9D57-4B95-950D-3DA9EFC3ED11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D5E9339-9D57-4B95-950D-3DA9EFC3ED11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D5E9339-9D57-4B95-950D-3DA9EFC3ED11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D5E9339-9D57-4B95-950D-3DA9EFC3ED11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{564AB308-4217-4FD3-84FD-272007BC1DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{564AB308-4217-4FD3-84FD-272007BC1DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E2B2BD-D60F-451E-B827-69C8E954423E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E2B2BD-D60F-451E-B827-69C8E954423E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E2B2BD-D60F-451E-B827-69C8E954423E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E2B2BD-D60F-451E-B827-69C8E954423E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74D04CD9-D620-4169-A997-8233745DD9B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D04CD9-D620-4169-A997-8233745DD9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D04CD9-D620-4169-A997-8233745DD9B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D04CD9-D620-4169-A997-8233745DD9B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8621D109-195F-4124-B2C3-0295ED2A580C} = {4E53FDA0-0047-42E3-9B45-C093B5365993}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3C673C3-1A99-46F4-B373-A295E5B92AF7}
+	EndGlobalSection
+EndGlobal

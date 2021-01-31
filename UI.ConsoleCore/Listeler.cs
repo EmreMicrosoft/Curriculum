@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Curriculum.UI.ConsoleCore
+namespace UI.ConsoleCore
 {
     public static class Listeler
     {

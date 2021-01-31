@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Curriculum.Courses.CSharp.Exercises
+namespace Kurslar.CSharp.Exercises
 {
     public class ForLoopExercises
     {

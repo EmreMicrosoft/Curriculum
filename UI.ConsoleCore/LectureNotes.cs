@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Curriculum.UI.ConsoleCore
+namespace UI.ConsoleCore
 {
     public static class LectureNotes
     {

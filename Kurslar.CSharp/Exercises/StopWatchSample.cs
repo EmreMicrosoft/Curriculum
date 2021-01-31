@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace Curriculum.Courses.CSharp.Exercises
+namespace Kurslar.CSharp.Exercises
 {
     public class StopWatchSample
     {
