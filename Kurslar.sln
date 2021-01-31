@@ -11,22 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeScript", "TypeScript\Ty
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UI", "UI\UI.csproj", "{74D04CD9-D620-4169-A997-8233745DD9B5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E53FDA0-0047-42E3-9B45-C093B5365993}"
-	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{8621D109-195F-4124-B2C3-0295ED2A580C}"
-	ProjectSection(SolutionItems) = preProject
-		Kurslar.Angular\Fundamentals\01 - Intro\Angular Notes.txt = Kurslar.Angular\Fundamentals\01 - Intro\Angular Notes.txt
-		..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\HTML-notes.txt = ..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\HTML-notes.txt
-		..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\ImageUploads_v140.cs = ..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\ImageUploads_v140.cs
-		..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\Keyboard Symbols.txt = ..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\Keyboard Symbols.txt
-		..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\math.txt = ..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\math.txt
-		..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\mvc notlar (kopya).txt = ..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\mvc notlar (kopya).txt
-		..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\UploadImages.cs = ..\..\..\..\Documents\_Desktop\Developerrr\Developer.CheckNotes\OldNotes\UploadImages.cs
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,9 +36,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{8621D109-195F-4124-B2C3-0295ED2A580C} = {4E53FDA0-0047-42E3-9B45-C093B5365993}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A3C673C3-1A99-46F4-B373-A295E5B92AF7}
