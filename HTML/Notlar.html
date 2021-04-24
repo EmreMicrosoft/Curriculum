@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Site Title</title>
+
+    <!-- sayfa kendini 5 saniyede bir yeniler: -->
+    <meta http-equiv="refresh" content="5">
+
+    <meta name="title" content="Site Title">
+    <meta name="description" content="Site Description">
+
+    <style>
+        html {
+            font-size: 16px;
+        }
+
+        .size-for-em {
+            font-size: 30px;
+        }
+
+        .style-for-italic {
+            font-style: italic;
+            font-size: 30px;
+        }
+
+        div.text-area {
+            width: 50%;
+        }
+
+        p.text-header {
+            font-size: 1.5rem;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+            text-shadow: rgba(255, 0, 0, 0.5) 5px 5px 4px;
+        }
+
+        p.text-body {
+            font-size: 0.8rem;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: justify;
+            text-indent: 10px;
+        }
+
+        video {
+            width: 20%;
+        }
+
+        .sample-div {
+            display: block;
+
+            border: 3px solid black;
+            border-style: dashed;
+
+            height: 400px;
+            max-width: 300px;
+            min-width: 100px;
+
+            background-image: url("https://www.worldatlas.com/r/w728-h425-c728x425/upload/66/14/d8/kangchenjunga.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            background-color: gray;
+            color: white;
+
+            padding-top: 50px;
+            margin-top: 100px;
+
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        @media screen and (max-width:"900px") {
+            div {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        <b>Site Body</b>
+    </p>
+    <p>
+        <big>Big Fonts</big>
+    </p>
+    <p>
+        <i>Italic Fonts</i>
+    </p>
+    <p>
+        <small>Small Fonts</small>
+    </p>
+    <p>
+        <strong>Strong Fonts</strong>
+    </p>
+    <p>
+        <em>Important Text for Search Engines</em>
+    </p>
+    <p>
+        H<sub>2</sub>O - Normal Line and <sub>Sub Fonts</sub>
+    </p>
+    <p>
+        X<sup>2</sup> - Normal Line and <sup>Uper Fonts</sup>
+    </p>
+    <p>
+        Old Text and <ins>Inserted Text</ins>
+    </p>
+    <p>
+        <del>Deleted Text</del>
+    </p>
+
+    <h1>Lorem ipsum H1</h1>
+    <br />
+    <h1 style="border: 1px solid red;">Lorem ipsum H1 h1</h1>
+    <b style="border: 1px solid red;">Lorem ipsum H1 b</b>
+    <br />
+    <hr> Horizontal Lines
+    <hr>
+    <h2>Lorem ipsum H2</h2>
+    <h3>Lorem ipsum H3</h3>
+    <h4>Lorem ipsum H4</h4>
+    <h5>Lorem ipsum H5</h5>
+    <h6>Lorem ipsum H6</h6>
+
+    <!-- Comment Line -->
+
+    <h1>İletişim</h1>
+    <h2>Adress:</h2>
+    <p>Beşiktaş / İstanbul</p>
+    <h2>Yakından geçen <em>otobüsler</em>: </h2>
+    <p>
+        30M
+        <br>
+        30A
+        <br>
+        28T
+    </p>
+    <p>
+        <strong>Telefon</strong> numaramız:
+    </p>
+    <p>
+        +90 (000) 111 22 33
+    </p>
+
+    <br>
+    <hr><br>
+
+    <p align="justify">
+        --justify: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.
+    </p>
+    <p align="left">
+        -- left: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.
+    </p>
+    <p align="right">
+        -- right: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.
+    </p>
+    <p align="center">
+        --center: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.
+    </p>
+
+    <hr align="left" width="50%">
+
+    <br>
+    <progress min="0" max="100" value="65"></progress>
+    <br>
+
+    <nav></nav>
+    <main>
+
+        <br />
+        <br />
+        <div>
+            <p style="text-transform: lowercase; letter-spacing: 3px">
+                Lorem ipsum dolor sit amet. --text-transform.lowercase
+            </p>
+        </div>
+        <br />
+        <hr />
+        <div>
+            <p style="text-decoration: line-through;">
+                Lorem ipsum dolor sit amet. --line-through
+            </p>
+            <p>
+                <a style="text-decoration: none; font-size: 1.5rem; color:blue;" href="https://www.google.com">
+                    Google</a>
+            </p>
+        </div>
+
+        <br />
+        <hr />
+
+        <div class="text-area">
+            <p class="text-header">
+                Lorem ipsum dolor sit amet.
+            </p>
+            <p class="text-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex
+                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit
+                anim id est laborum.
+            </p>
+        </div>
+
+        <br />
+        <hr />
+
+        <div>
+            <p style="font-variant: small-caps; color:red">
+                Lorem ipsum dolor sit amet. --small-caps and colored
+            </p>
+        </div>
+
+        <br />
+        <hr />
+
+        <!-- Font Families -->
+        <div>
+            <p style="font-family: 'Courier New', Courier, monospace">
+                Lorem ipsum dolor sit amet. --Courier New, Courier, monospace.
+            </p>
+            <div class="size-for-em">
+                <!-- font-size: em, kapsayan elementin font büyüklüğü ile çarpan katsayı -->
+                <p style="font-size: 0.8em; font-family: 'Times New Roman', Times, serif">
+                    Lorem ipsum dolor sit amet. --Times New Roman, Times, serif.
+                </p>
+            </div>
+            <!-- font-size: rem, root'un font büyüklüğü ile çarpan katsayı -->
+            <p style="font-size: 1.5rem; font-family: Arial, Helvetica, sans-serif">
+                Lorem ipsum dolor sit amet. --Arial, Helvetica, sans-serif.
+            </p>
+        </div>
+
+        <br />
+        <hr />
+
+        <!-- Font Sizes -->
+        <div>
+            <p style="font-size: xx-small">
+                Lorem ipsum dolor sit amet. --xxSmall
+            </p>
+            <p style="font-size: x-small">
+                Lorem ipsum dolor sit amet. --xSmall
+            </p>
+            <p style="font-size: small">
+                Lorem ipsum dolor sit amet. --Small
+            </p>
+            <p style="font-size: medium">
+                Lorem ipsum dolor sit amet. --Medium
+            </p>
+            <p style="font-size: smaller">
+                Lorem ipsum dolor sit amet. --Smaller
+            </p>
+            <p style="font-size: large">
+                Lorem ipsum dolor sit amet. --Large
+            </p>
+            <p style="font-size: larger">
+                Lorem ipsum dolor sit amet. --Larger
+            </p>
+            <p style="font-size: x-large">
+                Lorem ipsum dolor sit amet. --xLarge
+            </p>
+            <p style="font-size:xx-large">
+                Lorem ipsum dolor sit amet. --xxLarge
+            </p>
+            <p style="font-size: unset">
+                Lorem ipsum dolor sit amet. --Unset
+            </p>
+            <p style="font-size: initial">
+                Lorem ipsum dolor sit amet. --Initial
+            </p>
+        </div>
+
+        <br />
+        <hr />
+
+        <div>
+            <p class="style-for-italic">
+                Lorem ipsum dolor sit amet. --Italic
+            </p>
+            <p style="font-weight: normal">
+                Lorem ipsum dolor sit amet. --Normal
+            </p>
+            <p style="font-weight: bold">
+                Lorem ipsum dolor sit amet. --Bold
+            </p>
+        </div>
+
+
+        <!-- <audio src=""></audio> -->
+        <audio controls autoplay loop>
+            <source src="a.wav">
+        </audio>
+        <br />
+        <audio controls>
+            <source src="b.wav">
+        </audio>
+        <br />
+        <audio controls>
+            <source src="c.wav">
+        </audio>
+        <br />
+
+        <!-- <video src=""></video> -->
+        <video controls>
+            <source src="d.mp4">
+        </video>
+
+        <div class="sample-div">Div Sample</div>
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>
