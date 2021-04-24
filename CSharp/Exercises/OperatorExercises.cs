@@ -1,4 +1,4 @@
-﻿namespace Kurslar.CSharp.Exercises
+﻿namespace CSharp.Exercises
 {
     public class OperatorExercises
     {

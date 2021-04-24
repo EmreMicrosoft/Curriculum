@@ -1,24 +1,21 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace Kurslar.CSharp.Exercises
+namespace CSharp.Exercises
 {
     public class StopWatchSample
     {
-        void Run()
+        internal void Run()
         {
-            Stopwatch kronometre = new Stopwatch();
+            var kronometre = new Stopwatch();
             kronometre.Start();
 
-            for (int i = 0; i < 100; i++)
-            {
-                Console.WriteLine(i);
-            }
+            TestMethod();
 
             kronometre.Stop();
-            TimeSpan zaman = kronometre.Elapsed;
+            var zaman = kronometre.Elapsed;
 
-            string gecenZaman = $"{zaman.Hours:00}" +
+            var geçenZaman = $"{zaman.Hours:00}" +
                                 $":{zaman.Minutes:00}" +
                                 $":{zaman.Seconds:00}" +
                                 $".{zaman.Milliseconds / 10:00}";
@@ -26,10 +23,19 @@ namespace Kurslar.CSharp.Exercises
 
             Console.WriteLine("--------------------------");
             Console.Write("Süre : ");
-            Console.WriteLine(gecenZaman);
+            Console.WriteLine(geçenZaman);
 
             // SON
             Console.ReadKey();
+        }
+
+        private static void TestMethod()
+        {
+            for (var i = 0; i < 100; i++)
+            {
+                Console.WriteLine(i);
+                Console.Clear();
+            }
         }
     }
 }
