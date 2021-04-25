@@ -27,12 +27,27 @@ namespace CSharp.Exercises
                 {
                     if (checkFirst)
                     {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine(a);
-                        Console.WriteLine(b);
-                        checkFirst = false;
+                        switch (firstValue)
+                        {
+                            case 0:
+                                Console.ForegroundColor = ConsoleColor.Green;
+                                Console.WriteLine(a);
+                                Console.WriteLine(b);
+                                break;
+                            case 1:
+                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.WriteLine(a);
+                                Console.ForegroundColor = ConsoleColor.Green;
+                                break;
+                            default:
+                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.WriteLine(a);
+                                Console.WriteLine(b);
+                                Console.ForegroundColor = ConsoleColor.Green;
+                                break;
+                        }
 
-                        Console.ForegroundColor = ConsoleColor.Green;
+                        checkFirst = false;
                     }
 
                     Console.WriteLine(c);
@@ -41,7 +56,7 @@ namespace CSharp.Exercises
                 if (c > lastValue)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine(c + a);
+                    Console.WriteLine(a + b);
                     break;
                 }
 

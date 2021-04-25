@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharp.Exercises;
+using System;
 
 namespace UI.ConsoleCore
 {
@@ -6,8 +7,10 @@ namespace UI.ConsoleCore
     {
         public static void Main()
         {
-            var client = new Client();
-            client.KonsolaYazdır();
+            //var client = new Client();
+            //client.KonsolaYazdır();
+
+            Fibonacci.Range();
 
             // bitti:
             Console.ReadKey();
