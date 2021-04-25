@@ -11,19 +11,19 @@ namespace CSharp.Exercises
         public static void Range()
         {
             Console.Write("ilk sayı: ");
-            var ilkSayı = Convert.ToInt32(Console.ReadLine());
+            var firstValue = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("son sayı: ");
-            var sonSayı = Convert.ToInt32(Console.ReadLine());
+            var lastValue = Convert.ToInt32(Console.ReadLine());
 
             int a = 0, b = 1;
             var checkFirst = true;
 
-            for (var i = 0; i < sonSayı; i++)
+            for (var i = 0; i < lastValue; i++)
             {
                 var c = a + b;
 
-                if (c >= ilkSayı && c <= sonSayı)
+                if (c >= firstValue && c <= lastValue)
                 {
                     if (a == 0 && b == 1)
                     {
@@ -34,6 +34,7 @@ namespace CSharp.Exercises
                     if (checkFirst)
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine(a);
                         Console.WriteLine(b);
                         checkFirst = false;
 
@@ -43,7 +44,7 @@ namespace CSharp.Exercises
                     Console.WriteLine(c);
                 }
 
-                if (c > sonSayı)
+                if (c > lastValue)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine(c + a);
