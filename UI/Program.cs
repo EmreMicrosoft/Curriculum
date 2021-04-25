@@ -1,7 +1,7 @@
 ﻿using CSharp.Exercises;
 using System;
 
-namespace UI.ConsoleCore
+namespace UI
 {
     public static class Program
     {
