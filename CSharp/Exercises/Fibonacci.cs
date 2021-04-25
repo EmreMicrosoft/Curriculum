@@ -25,12 +25,6 @@ namespace CSharp.Exercises
 
                 if (c >= firstValue && c <= lastValue)
                 {
-                    if (a == 0 && b == 1)
-                    {
-                        Console.WriteLine(a);
-                        Console.WriteLine(b);
-                    }
-
                     if (checkFirst)
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
