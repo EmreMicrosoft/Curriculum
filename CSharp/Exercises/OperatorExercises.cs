@@ -2,7 +2,7 @@
 {
     public class OperatorExercises
     {
-        //// OPERATÖRLER
+        //// OPERATORS
 
         //int a, b, c, d, e;
         //a = 7;       // a = 7

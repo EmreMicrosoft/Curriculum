@@ -11,7 +11,7 @@ namespace CSharp.Exercises
         /// </summary>
         /// <param name="min"></param>
         /// <param name="max"></param>
-        /// <returns></returns>
+        /// <returns>list of integer</returns>
         public List<int> PrimeNumbers(int min, int max)
         {
             var primeNumbers = new List<int>();
@@ -49,12 +49,12 @@ namespace CSharp.Exercises
 
             for (var i = 0; i < usernames.Length; i++)
             {
-                if (username?.ToLower() == usernames[i] && password == passwords[i])
-                {
-                    Console.WriteLine("Hoşgeldin " + usernames[i] + "!");
-                    kontrol = true;
-                    break;
-                }
+                if (username?.ToLower() != usernames[i] || password != passwords[i])
+                    continue;
+
+                Console.WriteLine("Hoşgeldin " + usernames[i] + "!");
+                kontrol = true;
+                break;
             }
 
             if (kontrol == false)
