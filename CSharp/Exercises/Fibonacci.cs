@@ -16,6 +16,8 @@ namespace CSharp.Exercises
             Console.Write("son sayı: ");
             var lastValue = Convert.ToInt32(Console.ReadLine());
 
+            Console.WriteLine();
+
             int a = 0, b = 1;
             var checkFirst = true;
 
@@ -63,8 +65,11 @@ namespace CSharp.Exercises
                 a = b; b = c;
             }
 
-            // end:
+
+            // END
+            Console.WriteLine();
             Console.ReadKey();
+            Console.ForegroundColor = ConsoleColor.White;
         }
     }
 }
